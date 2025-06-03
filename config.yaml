@@ -5,13 +5,18 @@ module:
 
 params:
     mainSections:
+        - home
+        - about
         - post
+        - archive
+        - tags
+
     featuredImageField: image
     rssFullContent: true
     favicon:
 
     footer:
-        since:
+        since: 2025
         customText:
 
     dateFormat:
@@ -19,13 +24,13 @@ params:
         lastUpdated: Jan 02, 2006 15:04 MST
 
     sidebar:
-        compact: false
+        compact: true
         emoji:
         subtitle:
         avatar:
             enabled: true
             local: true
-            src: img/avatar.png
+            src: img/avatar.webp
 
     article:
         headingAnchor: false
@@ -33,7 +38,7 @@ params:
         toc: true
         readingTime: true
         license:
-            enabled: false
+            enabled: true
             default: Licensed under CC BY-NC-SA 4.0
 
     comments:
